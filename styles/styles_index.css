@@ -1,0 +1,66 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+	font-family: "Cambria";
+}
+
+#pagediv {
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+}
+
+#coverpage h1 {
+	text-align: center;
+}
+
+#coverpage i {
+	font-size: 18; 
+}
+
+#coverpage h2 {
+	font-family: "Monotype Corsiva";
+	text-align: center;
+}
+
+.eulerpic {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#credentials span {
+	float: left;
+}
+
+#credentials span:nth-child(2) {
+	float: right;
+}
+
+
+#lifeofeuler h2 i {
+	font-weight: normal;
+}
+
+#lifeofeuler ul {
+	list-style-type: "∫";
+}
+
+.contributions h2 {
+	text-align: center;
+}
+
+.contributions ul {
+	list-style-type: "Σ";
+}
+
+.contributions img {
+	display: block;
+}
+
+.contributions .subjexp {
+	font-style: italic;
+	font-size: 12px;
+}
