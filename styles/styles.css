@@ -2,7 +2,9 @@
   width: 0;
 }
 
-html {
+body {
+	background-color: ghostwhite;
+	margin: 0;
 	font-family: "Cambria";
 }
 
@@ -63,4 +65,20 @@ html {
 .contributions .subjexp {
 	font-style: italic;
 	font-size: 12px;
+}
+
+#baselproblem {
+	display: inline-block;
+}
+
+#eulersformula {
+	display: inline-block;
+}
+
+
+/* Footer Div */
+#footer {
+	text-align: center;
+	background-color: maroon;
+	margin: 1rem 0 0 0;
 }
