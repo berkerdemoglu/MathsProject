@@ -5,6 +5,7 @@
 body {
 	background-color: ghostwhite;
 	margin: 0;
+	padding: 0;
 	font-family: "Cambria";
 }
 
@@ -42,11 +43,11 @@ body {
 }
 
 
-#lifeofeuler h2 i {
+.lifeofeuler h2 i {
 	font-weight: normal;
 }
 
-#lifeofeuler ul {
+.lifeofeuler ul {
 	list-style-type: "∫";
 }
 
@@ -80,5 +81,7 @@ body {
 #footer {
 	text-align: center;
 	background-color: maroon;
-	margin: 1rem 0 0 0;
+	margin-bottom: 0;
+	margin-top: 3rem;
+	color: #eeeeee;
 }
